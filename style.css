@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+    background: url('https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+}
+.left{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: inline-block;
+/* border: 2px solid red; */
+}
+.left img{
+    height: 100px;
+width: 200px;
+}
+.centre{
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+     /* border: 3px solid rgb(209, 216, 214);  */
+     margin-bottom: 0px;
+}
+.right{
+    position: absolute;
+    right: 12px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid rgb(32, 24, 181);
+
+}
+
+
+.navbar li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar :hover, .navbar li.active{
+    color: blanchedalmond;
+    text-decoration: underline;
+}
+.yt img{
+    position: absolute;
+    right: 160px;
+    top: 20px;
+    width: 40px;
+}
+.fb img{
+    position: absolute;
+    right: 80px;
+    top: 7px;
+    width: 58px;
+}
+.insta img{
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    width: 66px;
+}
+.container{
+    position: absolute;
+    top: 170px;
+    border: 7px solid white;
+   margin: 80px 60px;
+   padding: 54px 63px;
+   width:33%;
+   border-radius: 2px;
+}
+h1{
+    text-align: justify;
+    font-size: 34px;
+    font-weight: bold;
+}
+.fill input{
+    text-align: justify;
+    font-size: 20px;
+    width: 284px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 3px auto;
+}
+.btn{
+    border: 2px solid white;
+    font-size: 20px;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color:black;
+    color:white;
+
+}
+
+
